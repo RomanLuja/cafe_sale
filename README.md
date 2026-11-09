@@ -1,4 +1,5 @@
 # cafe_sale
+Структура репозиторію
 cafe_sales/  
 ├── README.md  
 ├── data/  
