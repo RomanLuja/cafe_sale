@@ -8,8 +8,9 @@
 
 ## Посилання
 
-- 📊 **Tableau Public:** [Cafe Sales Performance & Revenue Drivers](https://public.tableau.com/shared/JZN6C5S7F)
+- 🗂 **Датасет на Kaggle:** [Cafe Sales — Dirty Data for Cleaning Training](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training)
 - 📓 **Ноутбук у Colab:** [eda_cafe_sales.ipynb](https://colab.research.google.com/github/RomanLuja/cafe_sales/blob/main/notebooks/eda_cafe_sales.ipynb)
+- 📊 **Tableau Public:** [Cafe Sales Performance & Revenue Drivers](https://public.tableau.com/shared/JZN6C5S7F)
 
 ## Датасет
 
@@ -31,14 +32,13 @@
 ```
 cafe_sales/
 ├── data/
-│   ├── dirty_cafe_sales.csv        # сирі дані
-│   └── cafe_sales_clean.csv        # очищені дані
+│   ├── dirty_cafe_sales.csv            # сирі дані
+│   └── cafe_sales_clean.csv            # очищені дані
 ├── notebooks/
-│   ├── eda_cafe_sales.ipynb   # ноутбук проєкту
-│   ├── eda_training_cafe_sales.ipynb  # навчальна версія з початковим текстом завдання
-│   └── requirements.txt               # залежності Python
+│   ├── eda_cafe_sales.ipynb            # ноутбук проєкту
+│   └── requirements.txt                # залежності Python
 ├── tableau/
-│   └── dashboard.twbx              # книга Tableau Public
+│   └── dashboard.twbx                  # книга Tableau Public
 ├── README.md
 └── README.uk.md
 ```
@@ -76,7 +76,7 @@ cafe_sales/
 |---|---|
 | **1. Executive Summary** | Загальний виторг, середній чек, кількість продажів; найкращі товари за виторгом і за кількістю |
 | **2. Customer Behavior** | Найкращий спосіб оплати й локація, виторг за місяцями, середній чек за днями тижня |
-| **3. Revenue Stability** | Денний виторг із 7-денним ковзним середнім, аналіз викидів (boxplot), матриця кореляцій |
+| **3. Revenue Stability** | Денний виторг із 7-денним ковзним середнім, аналіз викидів (boxplot), аналіз кореляцій |
 
 ## Як запустити
 

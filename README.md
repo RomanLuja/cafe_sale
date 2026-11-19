@@ -8,8 +8,9 @@ An end-to-end analytics project: from a deliberately "dirty" cafe sales file to 
 
 ## Links
 
-- 📊 **Tableau Public:** [Cafe Sales Performance & Revenue Drivers](https://public.tableau.com/shared/JZN6C5S7F)
+- 🗂 **Dataset on Kaggle:** [Cafe Sales — Dirty Data for Cleaning Training](https://www.kaggle.com/datasets/ahmedmohamed2003/cafe-sales-dirty-data-for-cleaning-training)
 - 📓 **Notebook in Colab:** [eda_cafe_sales.ipynb](https://colab.research.google.com/github/RomanLuja/cafe_sales/blob/main/notebooks/eda_cafe_sales.ipynb)
+- 📊 **Tableau Public:** [Cafe Sales Performance & Revenue Drivers](https://public.tableau.com/shared/JZN6C5S7F)
 
 ## Dataset
 
@@ -31,14 +32,13 @@ An end-to-end analytics project: from a deliberately "dirty" cafe sales file to 
 ```
 cafe_sales/
 ├── data/
-│   ├── dirty_cafe_sales.csv        # raw data
-│   └── cafe_sales_clean.csv        # cleaned data
+│   ├── dirty_cafe_sales.csv            # raw data
+│   └── cafe_sales_clean.csv            # cleaned data
 ├── notebooks/
-│   ├── eda_cafe_sales.ipynb   # project notebook
-│   ├── eda_training_cafe_sales.ipynb  # training version with the original assignment text
-│   └── requirements.txt               # Python dependencies
+│   ├── eda_cafe_sales.ipynb            # project notebook
+│   └── requirements.txt                # Python dependencies
 ├── tableau/
-│   └── dashboard.twbx              # Tableau Public workbook
+│   └── dashboard.twbx                  # Tableau Public workbook
 ├── README.md
 └── README.uk.md
 ```
@@ -76,7 +76,7 @@ cafe_sales/
 |---|---|
 | **1. Executive Summary** | Total revenue, average check, number of transactions; top items by revenue and by units sold |
 | **2. Customer Behavior** | Top payment method and location, revenue by month, average check by weekday |
-| **3. Revenue Stability** | Daily revenue with a 7-day moving average, outliers analysis (box plots), correlation matrix |
+| **3. Revenue Stability** | Daily revenue with a 7-day moving average, outliers analysis (box plots), correlation analysis |
 
 ## How to run
 
